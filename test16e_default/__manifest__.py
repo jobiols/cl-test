@@ -35,11 +35,13 @@
     # Config to write in odoo.conf
     "config-local": [
         "workers = 0",
-        "admin_password = admin",
+        "admin_passwd = admin",
     ],
     "port": "8069",
     "git-repos": [
         "https://github.com/jobiols/cl-test.git -b 16.0e",
+        "git@github.com:quilsoft-org/addons-tools.git",
+
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
