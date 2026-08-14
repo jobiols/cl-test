@@ -40,6 +40,8 @@
     "port": "8069",
     "git-repos": [
         "https://github.com/jobiols/cl-test.git -b 18.0e",
+        "git@github.com:quilsoft-org/demo-multi-fiscal-position.git"
+
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
