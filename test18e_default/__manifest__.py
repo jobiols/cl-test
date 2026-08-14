@@ -53,10 +53,10 @@
         "https://github.com/ingadhoc/aeroo_reports.git l10n-ar/aeroo_reports",
         "https://github.com/ingadhoc/sale.git l10n-ar/sale",
 
-        "https://github.com/oca/oca-server-tools l10n-ar/oca-server-tools",
-        "https://github.com/oca/oca-stock-logistics-workflow.git l10n-ar/oca-stock-logistics-workflow",
-        "https://github.com/oca/oca-web.git l10n-ar/oca-web",
-        "https://github.com/oca/oca-sale-workflow.git l10n-ar/oca-sale-workflow"
+        "https://github.com/adhoc-cicd/oca-server-tools l10n-ar/oca-server-tools",
+        "https://github.com/adhoc-cicd/oca-stock-logistics-workflow.git l10n-ar/oca-stock-logistics-workflow",
+        "https://github.com/adhoc-cicd/oca-web.git l10n-ar/oca-web",
+        "https://github.com/adhoc-cicd/oca-sale-workflow.git l10n-ar/oca-sale-workflow"
 
     ],
     # list of images to use in the form 'name image-url'
