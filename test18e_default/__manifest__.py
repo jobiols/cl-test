@@ -40,12 +40,28 @@
     "port": "8069",
     "git-repos": [
         "https://github.com/jobiols/cl-test.git -b 18.0e",
-        "git@github.com:quilsoft-org/demo-multi-fiscal-position.git"
+        "git@github.com:quilsoft-org/demo-multi-fiscal-position.git",
+
+        "https://github.com/adhoc/account-financial-tools.git l10n-ar/account-financial-tools",
+        "https://github.com/adhoc/account-payment.git l10n-ar/account-payment",
+        "https://github.com/adhoc/odoo-argentina.git l10n-ar/odoo-argentina",
+        "https://github.com/adhoc/argentina-sale.git l10n-ar/argentina-sale",
+        "https://github.com/adhoc/account-invoicing.git l10n-ar/account-invoicing",
+        "https://github.com/adhoc/odoo-argentina-ee.git l10n-ar/odoo-argentina-ee",
+        "https://github.com/adhoc/stock.git l10n-ar/stock",
+
+        "https://github.com/adhoc/aeroo_reports.git l10n-ar/aeroo_reports",
+        "https://github.com/adhoc/sale.git l10n-ar/sale",
+
+        "https://github.com/oca/oca-server-tools l10n-ar/oca-server-tools",
+        "https://github.com/oca/oca-stock-logistics-workflow.git l10n-ar/oca-stock-logistics-workflow",
+        "https://github.com/oca/oca-web.git l10n-ar/oca-web",
+        "https://github.com/oca/oca-sale-workflow.git l10n-ar/oca-sale-workflow"
 
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
         "odoo jobiols/odoo-ent:18.0e",
-        "postgres postgres:16.1-alpine",
+        "postgres postgres:18-alpine",
     ],
 }
